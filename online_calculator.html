@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <marquee> <h2>ONLINE CALCULATOR</h2> </marquee>
+  <div class="calculator">
+    <input type="text" id="result" disabled>
+    <div class="buttons">
+      <button onclick="clearResult()">C</button>
+      <button onclick="deleteCharacter()">&larr;</button>
+      <button onclick="appendCharacter('.')">.</button>
+      <button onclick="appendCharacter('+')">+</button>
+      <button onclick="appendCharacter('8')">8</button>
+      <button onclick="appendCharacter('9')">9</button>
+      <button onclick="appendCharacter('7')">7</button>
+      <button onclick="appendCharacter('-')">-</button>
+      <button onclick="appendCharacter('5')">5</button>
+      <button onclick="appendCharacter('6')">6</button>
+      <button onclick="appendCharacter('4')">4</button>
+      <button onclick="appendCharacter('*')">*</button>
+      <button onclick="appendCharacter('2')">2</button>
+      <button onclick="appendCharacter('3')">3</button>
+      <button onclick="appendCharacter('1')">1</button>
+      <button onclick="appendCharacter('/')">/</button>
+      <button onclick="appendCharacter('0')">0</button>
+      <button onclick="appendCharacter('00')">00</button>
+      <button onclick="appendCharacter('^')">^</button>
+      <button onclick="calculate()">=</button>
+    </div>
+    <div class="history">
+      <h3>Calculation History:</h3>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

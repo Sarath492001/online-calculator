@@ -1,0 +1,52 @@
+.calculator {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid;
+  border-color: grey;
+  border-radius: 5px;
+  background-color: lavender;
+  background-image: url("dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+  background-size: cover;
+}
+
+input[type="text"] {
+  width: 78%;
+  padding: 40px;
+  border: 5px solid;
+  border-color: darkgray;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+button {
+  padding: 10px;
+  border: 2px solid #cccccc;
+  background-color: white;
+}
+
+.history {
+  margin-top: 40px;
+}
+
+.history h3 {
+  margin-bottom: 20px;
+}
+
+.history-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+body {
+  background-image: url("sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
